@@ -46,5 +46,6 @@ PyInstaller.__main__.run([
     'main.py',
     '--onefile',
     '--hidden-import=keyboard',
+    '--hidden-import=requests',
     '--noconsole'
 ])

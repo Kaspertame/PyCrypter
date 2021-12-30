@@ -39,6 +39,7 @@ def generate(key, content):
 
 content = getContents()
 key = getKey()
+print(key)
 encrypted = encrypt(key, content)
 generate(key, encrypted)
 #create exe from PyInstaller
